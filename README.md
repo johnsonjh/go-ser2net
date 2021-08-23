@@ -12,7 +12,7 @@ use this code example:
 
 ```go
 import (
-	"github.com/9elements/go-ser2net/pkg/ser2net"
+	"github.com/BAN-AI-Communications/goser2net/pkg/ser2net"
 )
 
         w, _ := ser2net.NewSerialWorker("/dev/ttyS0")
@@ -36,7 +36,7 @@ To use an io.ReadWriter do:
 
 ```go
 import (
-        "github.com/9elements/go-ser2net/pkg/ser2net"
+        "github.com/BAN-AI-Communications/goser2net/pkg/ser2net"
 )
 
 	w, _ := ser2net.NewSerialWorker("/dev/ttyS0")
